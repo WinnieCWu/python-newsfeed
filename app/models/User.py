@@ -25,5 +25,3 @@ def validate_password(self, key, password):
 
   #encrypt password
   return bcrypt.hashpw(password.encode('utf-8'), salt)
-
-  return password
